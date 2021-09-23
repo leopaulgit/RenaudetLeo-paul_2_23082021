@@ -1,0 +1,275 @@
+
+
+body
+{
+   
+    font-family: Raleway;
+}
+nav ul
+{
+    right: 100px;
+    list-style-type:none;
+    position: absolute;
+    right: 10px;
+    padding:0;
+    margin:0;
+    
+
+}
+nav li
+{
+    margin-left:20px;
+    float:left; 
+    
+    
+    
+    
+}
+nav a
+{
+    text-decoration: none;
+    color: #0065fc;
+}
+nav a:hover
+{
+    border: 3px solid #5891e6;
+    padding-top: 50px;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+
+}
+
+#conteneur
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.liste
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+#populaire .liste
+{
+    flex-direction: column;
+}
+
+#hebergement
+{
+    width: 65%;
+    background-color:#F2F2F2;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    padding: 20px;
+}
+#hebergement a
+{
+    margin-bottom: 15px;
+    width: 30%;
+    background-color: white;
+    border: 2px solid whitesmoke;
+    border-radius: 20px 20px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    
+}
+#hebergement i
+{
+    color: #0065fc;
+    margin-top: 10px;
+}
+#populaire
+{
+    width: 25%;
+    background-color:#F2F2F2;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 20px 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    padding: 20px;
+    
+}
+#populaire a
+{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border: 2px solid whitesmoke;
+    border-radius: 20px 20px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    box-shadow: 1px 1px 10px white;
+    
+}
+#populaire h1 i
+{
+    color: black;
+    border: none;
+    background-color: none;
+    padding-left: 150px;
+}
+#populaire figcaption
+{
+    margin-left: 10px;
+}
+#populaire figcaption i 
+{
+    color: #0065fc;
+    margin-top: 10px;
+}
+.bas 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+   height: 600px; 
+   
+    
+}
+.bas a
+{
+    border: 2px solid #F2F2F2;
+    border-radius: 20px 20px;
+    text-decoration: none;
+    color: black;
+    height: 100%;
+    
+}
+.activite
+{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.propos
+{
+    background-color:#F2F2F2;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    
+
+}
+ul
+{
+    list-style-type: none;
+   
+
+}
+.filtre h1 i 
+{
+    background-color: #DEEBFF;
+    border: 2px solid #F2F2F2;
+    border-radius: 30px 30px;
+    padding: 17px;
+    
+    color: #0065fc;
+    
+}
+.propos a
+{
+    text-decoration: none;
+    color: black;
+}
+
+p i
+{
+    color: #0065fc;
+    border: 2px solid #F2F2F2;
+    border-radius: 50px 50px;
+    padding: 10px;
+}
+h3 a
+{
+    text-decoration: none;
+    color: black;
+}
+#hebergement .liste img
+{
+    width: 100%;
+    border: 1px solid white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+h1 a:hover
+{
+    background-color: #DEEBFF;
+    padding: 10px;
+    border-radius: 20px 20px;
+    box-shadow: 2px 2px 10px rgb(60, 59, 59);
+}
+button
+{
+    background-color: #0065fc;
+    color: white;
+    padding: 11px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-color:#F2F2F2;
+}
+input
+{
+    padding: 10px;
+    border-color:#F2F2F2;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.logo img
+{
+    width:100px;
+}
+#populaire .liste img
+{
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.bas img
+{
+    width: 100%;
+    height: calc(100% - 60px);
+    object-fit: cover;
+    border: 1px solid white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+h1 a 
+{
+    text-decoration: none;
+    color: black;
+    border: 2px solid #F2F2F2;
+    border-left-color: white;
+    border-radius: 50px 50px;
+    padding: 4px;
+}
+.activite h3
+{
+    margin: 0;
+    height: 60px;
+}
+.activite.double a
+{
+    height: 50%;
+}
