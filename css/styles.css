@@ -5,35 +5,46 @@ body
    
     font-family: Raleway;
 }
+/**************************************
+*                 Navigation          *
+**************************************/
 nav ul
 {
     right: 100px;
     list-style-type:none;
-    position: absolute;
+    position:absolute;
 }
 nav li
 {
     margin-left:60px;
     margin-right: 60px;   
-    float: left;    
+       
+}
+nav ul li 
+{
+    display: inline-block;
+    
 }
 nav a
 {
+    border-top: 3px solid transparent;
     text-decoration: none;
     color: #0065fc;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 20px;
 }
 nav a:hover
 {
-    border: 3px solid #0065fc;
-    padding-top: 50px;
-    padding-right: 10px;
-    padding-left: 10px;
-    border-left: none;
-    border-right: none;
-    border-bottom: none;
+    border-color: #0065fc;
+    transition: 0.3s all;
+    
 
 }
-
+/**********************************
+*      Milieu                   *
+**********************************/
+    
 #conteneur
 {
     display: flex;
@@ -115,14 +126,13 @@ nav a:hover
 {
     color: black;
     border: none;
-    background-color: none;
     padding-left: 150px;
 }
-#populaire figcaption
+#populaire .liste div
 {
     margin-left: 10px;
 }
-#populaire figcaption i 
+#populaire .liste div i
 {
     color: #0065fc;
     margin-top: 10px;
@@ -152,6 +162,10 @@ nav a:hover
     display: flex;
     flex-direction: column;
     width: 25%;
+    
+}
+.activite.double {
+    height: 300px;
 }
 
 .propos
@@ -172,13 +186,12 @@ ul
    
 
 }
-.filtre h1 i 
+.filtre i 
 {
     background-color: #DEEBFF;
     border: 2px solid #F2F2F2;
     border-radius: 30px 30px;
-    padding: 17px;
-    
+    padding: 19px;
     color: #0065fc;
     
 }
@@ -208,7 +221,7 @@ h3 a
     border-top-right-radius: 20px;
 
 }
-h1 a:hover
+.filtre a:hover
 {
     background-color:#F2F2F2;  
 }
@@ -231,14 +244,11 @@ input
     border: none;
     
 }
-.recherche i 
+
+
+.recherche button i.fas.fa-search
 {
-    border: 1px solid #F2F2F2;
-    padding: 12px;
-    background-color: #F2F2F2;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border: none;
+    display: none;
 }
 .logo img
 {
@@ -258,24 +268,26 @@ input
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
-h1 a 
+.filtre a
 {
     text-decoration: none;
     color: black;
     border: 2px solid #F2F2F2;
-    border-left-color: white;
     border-radius: 50px 50px;
-    padding: 4px;
+    padding:15px ;
+    padding-left: 0;
+
+.filtre 
+{
+    display: flex;
+    align-items: center;
 }
 .activite h3
 {
     margin: 0;
     height: 60px;
 }
-.activite.double a
-{
-    height: 50%;
-}
+
 .bas figcaption
 {
     padding: 10px;
