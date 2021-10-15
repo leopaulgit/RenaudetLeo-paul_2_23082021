@@ -22,7 +22,7 @@
 
    }
    #populaire{
-       width: 95%;
+       width: 100%;
        padding: 0;
    }
    .bas{
@@ -86,7 +86,7 @@ nav li {
 {
     display: none;
 }
-.activite a
+.activite a img
 {
-    height: 300px;
+    height: 200px;
 }

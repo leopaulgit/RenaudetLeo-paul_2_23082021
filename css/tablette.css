@@ -16,7 +16,7 @@
   
      }
      
-     }
+     
      .bas{
         flex-direction: column;
     }
@@ -33,10 +33,14 @@ nav a
 {
     display: block;
 }
-#hebergement .liste
+#hebergement .liste 
 {
     display: flex;
     flex-direction: row; 
     justify-content: space-between; 
     flex-wrap: wrap;
+}
+#hebergement .liste a 
+{
+    width: 45%;
 }
